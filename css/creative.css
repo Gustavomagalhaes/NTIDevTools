@@ -55,6 +55,13 @@ a {
     text-align: justify;
 }
 
+.canvas-style-dark {
+    color: #222;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
 /*canvas. {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     color: #fff;
@@ -82,12 +89,28 @@ a {
 
 .bg-head {
     color: #fff;
-    background-color: Gainsboro;
+/*    background-color: Gainsboro;*/
+}
+
+.head-color {
+    background: rgb(227,229,237);
+    background: -moz-linear-gradient(top,  rgba(227,229,237,1) 26%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(227,229,237,1) 26%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom,  rgba(227,229,237,1) 26%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3e5ed', endColorstr='#ffffff',GradientType=0 );
+}
+
+.footer-color {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(227,229,237,1) 49%);
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(227,229,237,1) 49%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(227,229,237,1) 49%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e3e5ed',GradientType=0 );
 }
 
 .navbar-style {
     color: #222;
-    background-color: Gainsboro;
+    background-color: #E3E5ED;
 }
 
 /*Made by Gustavo Magalhães FIM*/
